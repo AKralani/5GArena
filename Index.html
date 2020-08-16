@@ -18,20 +18,13 @@
     <!-- ------------ AOS Library ------------------------- -->
     <link rel="stylesheet" href="./css/aos.css">
 
-
-
-
-
     <!-- Custom Style   -->
     <link rel="stylesheet" href="./css/Style.css">
 
-
-
 </head>
+
 <body>
 
-    
-    
     <!-- ----------------------------  Navigation ---------------------------------------------- -->
 
     <nav class="nav">
@@ -50,7 +43,7 @@
                         <a href="index.html">Home</a>
                     </li>
                     <li class="nav-link">
-                        <a href="brands.html">Brands</a>
+                        <a href="brands.php">Brands</a>
                     </li>
                     <li class="nav-link">
                         <a href="#">Archive</a>
@@ -73,30 +66,38 @@
     </nav>
 
     <!-- ------------x---------------  Navigation --------------------------x------------------- -->
-    <!----------------------Main Site Section-------->
+
+    <!----------------------------- Main Site Section ------------------------------>
+
     <main>
-         <!-------------- Site title  ---------------->
-     <section class="site-title">
+
+        <!------------------------ Site Title ---------------------->
+
+        <section class="site-title">
             <div class="site-background" data-aos="fade-up" data-aos-delay="100">
                 <h3>SmartPhones & Tablets</h3>
                 <h1>Amazing Place for Technology</h1>
-                <button class="btn">Explore</button>
-                
+                <!--<button class="btn">Explore</button>-->
+				<button onclick="location.href='brands.php'" 
+								type="button" class="btn">Explore</button>
             </div>
         </section>
-        <!-------------- Site title  ---------------->
-        <!------------Blog Carousel--------->
+
+        <!------------x----------- Site Title ----------x----------->
+
+        <!-- --------------------- Blog Carousel ----------------- -->
 
         <section>
             <div class="blog">
                 <div class="container">
                     <div class="owl-carousel owl-theme blog-post">
-                        <div class="blog-content"data-aos="fade-right" data-aos-delay="200" >
+                        <div class="blog-content" data-aos="fade-right" data-aos-delay="200">
                             <img src="./assets/Blog-post/post-1.jpg" alt="post-1">
                             <div class="blog-title">
                                 <h3>Samsung Galaxy Note 20 Ultra</h3>
-                                <<button class="btn btn-blog">Samsung</button>
-                                
+                                <!--<button class="btn btn-blog">Samsung</button>-->
+								<button onclick="location.href='https://www.samsung.com/global/galaxy/galaxy-note20/'" 
+								type="button" class="btn btn-blog">Samsung</button>
                                 <span>2 minutes</span>
                             </div>
                         </div>
@@ -105,8 +106,8 @@
                             <div class="blog-title">
                                 <h3>OnePlus 8 Pro</h3>
                                 <!--<button class="btn btn-blog">OnePlus</button>-->
-                                <button onclick="location.href='https://www.oneplus.com/8-pro'" 
-                                type="button" class="btn btn-blog">OnePlus</button>
+								<button onclick="location.href='https://www.oneplus.com/8-pro'" 
+								type="button" class="btn btn-blog">OnePlus</button>
                                 <span>2 minutes</span>
                             </div>
                         </div>
@@ -115,8 +116,8 @@
                             <div class="blog-title">
                                 <h3>iPhone 11 Pro Max</h3>
                                 <!--<button class="btn btn-blog">iPhone</button>-->
-                                <button onclick="location.href='https://www.apple.com/shop/buy-iphone/iphone-11-pro'" 
-                                type="button" class="btn btn-blog">iPhone</button>
+								<button onclick="location.href='https://www.apple.com/shop/buy-iphone/iphone-11-pro'" 
+								type="button" class="btn btn-blog">iPhone</button>
                                 <span>2 minutes</span>
                             </div>
                         </div>
@@ -125,8 +126,8 @@
                             <div class="blog-title">
                                 <h3>Google Pixel 4a</h3>
                                 <!--<button class="btn btn-blog">Google</button>-->
-                                <button onclick="location.href='https://store.google.com/in/product/pixel_4a'" 
-                                type="button" class="btn btn-blog">Google</button>
+								<button onclick="location.href='https://store.google.com/in/product/pixel_4a'" 
+								type="button" class="btn btn-blog">Google</button>
                                 <span>2 minutes</span>
                             </div>
                         </div>
@@ -135,19 +136,18 @@
                         <span class="owl-nav-prev"><i class="fas fa-long-arrow-alt-left"></i></span>
                         <span class="owl-nav-next"><i class="fas fa-long-arrow-alt-right"></i></span>
                     </div>
-
                 </div>
             </div>
         </section>
-		
-		<!-- ----------x---------- Blog Carousel --------x-------- -->
+
+        <!-- ----------x---------- Blog Carousel --------x-------- -->
 
         <!-- ---------------------- Site Content -------------------------->
 
         <section class="container">
             <div class="site-content">
                 <div class="posts">
-				<div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/Blog-post/blog1.webp" class="img" alt="blog1">
@@ -158,16 +158,18 @@
                                 <span>2 Commets</span>
                             </div>
                         </div>
-						<div class="post-title">
+                        <div class="post-title">
                             <a href="https://www.samsung.com/us/smartphones/galaxy-z-fold2-5g/">Introducing Galaxy Z Fold2 5G</a>
                             <p>Introducing a device unlike any other, with a cutting-edge hinge that allows it to fold like a book, 
 								stand on its own and defy what you thought a smartphone could do.
                             </p>
-                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                            <!--<button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+							<button onclick="location.href='https://www.samsung.com/us/smartphones/galaxy-z-fold2-5g/'" 
+								type="button" class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
                         </div>
-						</div>
-                        <hr>
-                        <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
+                    </div>
+                    <hr>
+                    <div class="post-content" data-aos="zoom-in" data-aos-delay="200">
                         <div class="post-image">
                             <div>
                                 <img src="./assets/Blog-post/blog2.png" class="img" alt="blog1">
@@ -181,12 +183,14 @@
                         <div class="post-title">
                             <a href="https://consumer.huawei.com/en/phones/mate-x-s/">Meet the Unprecedented</a>
                             <p>Spread your wings with HUAWEI Mate Xs’ Falcon Wing Design. Adopting the unique Falcon
-                                Wing with an innovative hinge, HUAWEI Mate Xs presents groundbreaking technology with
-                                a remarkable visual sensation. Folded as a sleek smartphone, it fits perfectly in your
-                                pocket and palm. You can always be ready for tasks on the go. Flip it open, you can 
-                                explore more in the double-sized immersive screen with comfort and ease.
+								Wing with an innovative hinge, HUAWEI Mate Xs presents groundbreaking technology with
+								a remarkable visual sensation. Folded as a sleek smartphone, it fits perfectly in your
+								pocket and palm. You can always be ready for tasks on the go. Flip it open, you can 
+								explore more in the double-sized immersive screen with comfort and ease.
                             </p>
-                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                            <!--<button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+							<button onclick="location.href='https://consumer.huawei.com/en/phones/mate-x-s/'" 
+								type="button" class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
                     <hr>
@@ -204,11 +208,13 @@
                         <div class="post-title">
                             <a href="https://www.mi.com/global/mi-mix-alpha">Mi MIX Alpha 5G Surround Display Concept Smartphone</a>
                             <p>Explore — Let the future contain more possibilities.
-                                Mi MIX Alpha is a futuristic phone that shows the many avenues for Xiaomi to explore during the 5G era.
-                                Not all possibilities can be explored. We do not explore to find a fixed future,
-                                but to get a glimpse of its endless possibilities.
+								Mi MIX Alpha is a futuristic phone that shows the many avenues for Xiaomi to explore during the 5G era.
+								Not all possibilities can be explored. We do not explore to find a fixed future,
+								but to get a glimpse of its endless possibilities.
                             </p>
-                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                            <!--<button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+							<button onclick="location.href='https://www.mi.com/global/mi-mix-alpha'" 
+								type="button" class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
                     <hr>
@@ -226,23 +232,25 @@
                         <div class="post-title">
                             <a href="https://www.nokia.com/phones/en_int/nokia-8-3-5g">Nokia 8.3 5G - Elevate your creativity</a>
                             <p>Make every video epic. 
-                                Shoot like a pro – without having to be one – thanks to built-in ZEISS cinematic effects. 
-                                Easily add anamorphic and blue flares to your footage for an effortlessly epic look. 
-                                Plus, share your stunning 4K videos with 5G.
+								Shoot like a pro – without having to be one – thanks to built-in ZEISS cinematic effects. 
+								Easily add anamorphic and blue flares to your footage for an effortlessly epic look. 
+								Plus, share your stunning 4K videos with 5G.
                             </p>
-                            <button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
+                            <!--<button class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>-->
+							<button onclick="location.href='https://www.nokia.com/phones/en_int/nokia-8-3-5g'" 
+								type="button" class="btn post-btn">Read More &nbsp; <i class="fas fa-arrow-right"></i></button>
                         </div>
                     </div>
-                     <div class="pagination flex-row">
+                    <div class="pagination flex-row">
                         <a href="#"><i class="fas fa-chevron-left"></i></a>
                         <a href="#" class="pages">1</a>
                         <a href="#" class="pages">2</a>
                         <a href="#" class="pages">3</a>
                         <a href="#"><i class="fas fa-chevron-right"></i></a>
                     </div>
-                     </div>
-				<aside class="sidebar"> 
-				<div class="category">
+                </div>
+                <aside class="sidebar">
+                    <div class="category">
                         <h2>Brands</h2>
                         <ul class="category-list">
                             <li class="list-items" data-aos="fade-left" data-aos-delay="100">
@@ -267,7 +275,7 @@
                             </li>
                         </ul>
                     </div>
-                     <div class="popular-post">
+                    <div class="popular-post">
                         <h2>Popular Post</h2>
                         <div class="post-content" data-aos="flip-up" data-aos-delay="200">
                             <div class="post-image">
@@ -280,12 +288,12 @@
                                     <span>122 Commets</span>
                                 </div>
                             </div>
-                             <div class="post-title">
+                            <div class="post-title">
                                 <a href="https://www.theguardian.com/technology/2019/dec/17/best-smartphone-2019-iphone-oneplus-samsung-and-huawei-compared-and-ranked">
-                                Best smartphone 2019: iPhone, OnePlus, Samsung and Huawei</a>
+								Best smartphone 2019: iPhone, OnePlus, Samsung and Huawei</a>
                             </div>
                         </div>
-                           <div class="post-content" data-aos="flip-up" data-aos-delay="300">
+                        <div class="post-content" data-aos="flip-up" data-aos-delay="300">
                             <div class="post-image">
                                 <div>
                                     <img src="./assets/popular-post/m-blog-2.jpg" class="img" alt="blog1">
@@ -343,7 +351,7 @@
                             </div>
                             <div class="post-title">
                                 <a href="https://medium.com/multiplier-magazine/why-did-nokia-fail-81110d981787">
-                                Why did Nokia fail and what can you learn from it?</a>
+								Why did Nokia fail and what can you learn from it?</a>
                             </div>
                         </div>
                     </div>
@@ -354,7 +362,7 @@
                             <button class="btn form-btn">Subscribe</button>
                         </div>
                     </div>
-					<div class="popular-tags">
+                    <div class="popular-tags">
                         <h2>Popular Tags</h2>
                         <div class="tags flex-row">
                             <span class="tag" data-aos="flip-up" data-aos-delay="100">Software</span>
@@ -366,17 +374,19 @@
                             <span class="tag" data-aos="flip-up" data-aos-delay="700">camera</span>
                             <span class="tag" data-aos="flip-up" data-aos-delay="800">iPhone</span>
                         </div>
-						</div>
-				</aside>
-				</div>
-				</section>
+                    </div>
+                </aside>
+            </div>
+        </section>
 
-        <!------------Blog Carousel--------->
+        <!-- -----------x---------- Site Content -------------x------------>
+
     </main>
-    <!---------------------Main Site Section------->
-	
-	
-	<!-- --------------------------- Footer ---------------------------------------- -->
+
+    <!---------------x------------- Main Site Section ---------------x-------------->
+
+
+    <!-- --------------------------- Footer ---------------------------------------- -->
 
     <footer class="footer">
         <div class="container">
@@ -428,7 +438,6 @@
         </div>
     </footer>
 
-    
     <!-- -------------x------------- Footer --------------------x------------------- -->
 
     <!-- Jquery Library file -->
@@ -442,6 +451,6 @@
 
     <!-- Custom Javascript file -->
     <script src="./js/main.js"></script>
-     
 </body>
+
 </html>
